@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #e6e8eb, #d66304)
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none
+}
+
+.contenitore {
+    top: 50%;
+    left: 60%;
+    width: 450px;
+    padding: 450px;
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px;
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="number"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="number"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.box input[type="button"],
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="button"]:hover,
+.box input[type="submit"]:hover {
+    background: #b2d8c2
+}
+
+#n1,
+#n2,
+#n3,
+#n4,
+#n5,
+#n6,
+#n7,
+#n8 {
+    width: 40%;
+    height: 40%;
+}
+
+p {
+    color: whitesmoke;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
